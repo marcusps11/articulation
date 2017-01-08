@@ -1,0 +1,12 @@
+.navbar-nav {
+    float: right;
+}
+
+.home-wrapper {
+        margin: 0 auto;
+    display: block;
+}
+
+.home-wrapper h1 {
+    transform: rotate(-13deg);
+}
