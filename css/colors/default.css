@@ -7,21 +7,28 @@
    File Description:Color CSS file of the template
 */
 
-
-.back-to-top:hover,.bg-custom,.btn-custom,.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,
-.navbar-custom  {
-  background-color: #01bf86 !important;
+.back-to-top:hover,
+.bg-custom,
+.btn-custom,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.navbar-custom {
+    background-color: #5FBCAF!important;
 }
 
-.btn-white-fill,.text-custom,.btn-white-bordered:hover,.btn-custom:hover,.features-box i,
+.btn-white-fill,
+.text-custom,
+.btn-white-bordered:hover,
+.btn-custom:hover,
+.features-box i,
 .pricing-column .plan-title {
-  color: #01bf86 !important;
+    color: #5FBCAF !important;
 }
 
 .btn-custom {
-  border: 2px solid #01bf86 !important;
+    border: 2px solid #5FBCAF !important;
 }
 
 .intro-form input:focus {
-  border: 1px solid #01bf86;
+    border: 1px solid #5FBCAF;
 }
