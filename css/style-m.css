@@ -3,10 +3,52 @@
 }
 
 .home-wrapper {
-        margin: 0 auto;
+    margin: 0 auto;
     display: block;
 }
 
 .home-wrapper h1 {
     transform: rotate(-13deg);
+}
+
+.navbar-custom {
+    padding: 10px 0px;
+}
+
+.logo-container img {
+    margin-left: 10px;
+}
+
+.title {
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.title-contact {
+    line-height: 40px;
+}
+
+.find-out-more {
+    text-align: center;
+}
+
+.brochure {
+    margin: 0 auto;
+    width: 50%;
+}
+
+h2 {
+    transform: rotate(-12deg);
+}
+
+@media (max-width: 768px) {
+    .home-wrapper {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .brochure {
+        width: 70%;
+    }
 }
