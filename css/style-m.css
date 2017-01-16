@@ -84,6 +84,11 @@ button:hover {
         margin-bottom: 100px;
         text-align: center;
     }
+    .home-wrapper h1 {
+        font-size: 70px;
+        line-height: 74px;
+        width: 100%;
+    }
     .brochure {
         width: 70%;
     }
