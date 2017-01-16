@@ -3,6 +3,15 @@
     src: url(../fonts/apercu_medium.woff);
 }
 
+@font-face {
+    font-family: 'akkurat';
+    src: url(../fonts/Akkurat-Light.woff);
+}
+
+body {
+    font-family: 'akkurat';
+}
+
 .navbar-nav {
     float: right;
 }
