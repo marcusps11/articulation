@@ -78,6 +78,18 @@ p {
     background: #F5CC00;
 }
 
+.img-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
 .download {
     margin-top: 10%;
     width: 160px;
@@ -87,21 +99,6 @@ p {
 .download:hover {
     background: #496174;
     color: #fff;
-}
-
-@media (max-width: 768px) {
-    .home-wrapper {
-        margin-bottom: 100px;
-        text-align: center;
-    }
-    .home-wrapper h1 {
-        font-size: 70px;
-        line-height: 74px;
-        width: 100%;
-    }
-    .brochure {
-        width: 70%;
-    }
 }
 
 .carousel {
@@ -128,13 +125,45 @@ p {
 }
 
 .slick-slide img {
-    width: 35%;
+    width: 70%;
     height: auto;
     display: block;
     margin: 0;
+    padding: 5px;
 }
 
 #publication {
     display: block;
     margin-bottom: 20%;
+}
+
+@media (max-width: 768px) {
+    .home-wrapper {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .home-wrapper h1 {
+        font-size: 70px;
+        line-height: 74px;
+        width: 100%;
+    }
+    .brochure {
+        width: 70%;
+    }
+    .img-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .carousel .slider-display div img {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .slick-slide img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+        padding: 5px;
+    }
 }

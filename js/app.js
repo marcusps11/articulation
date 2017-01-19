@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
     console.log("ready!");
 
 
@@ -15,6 +15,8 @@ $(document).ready(function () {
         asNavFor: '.slider-display',
         dots: false,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        centerPadding: '200px'
+
     });
 });
