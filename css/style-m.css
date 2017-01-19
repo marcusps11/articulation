@@ -58,10 +58,11 @@ h1 {
     text-align: center;
 }
 
-.brochure {
+
+/*.brochure {
     margin: 0 auto;
     width: 80%;
-}
+}*/
 
 h2 {
     transform: rotate(-8deg);
@@ -77,13 +78,13 @@ p {
     background: #F5CC00;
 }
 
-button {
+.download {
     margin-top: 10%;
     width: 160px;
     height: 40px;
 }
 
-button:hover {
+.download:hover {
     background: #496174;
     color: #fff;
 }
@@ -103,20 +104,37 @@ button:hover {
     }
 }
 
-
 .carousel {
-    width: 420px;
-    height: 100px;
+    max-width: 680px;
+    height: 400px;
+    margin: 0 auto;
 }
 
 .carousel .slider-display {
     width: 100%;
 }
 
-.carousel .slider-display > div {
+.carousel .slider-display>div {
     display: block;
     width: 100%;
-    height: 100px;
-    background: red;
+    height: auto;
+    background: none;
     color: white;
+}
+
+.carousel .slider-display div img {
+    width: 100%;
+    height: auto;
+}
+
+.slick-slide img {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+#publication {
+    display: block;
+    margin-bottom: 20%;
 }
