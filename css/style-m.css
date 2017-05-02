@@ -152,6 +152,10 @@ p {
     margin: 2%;
 }
 
+.text-container {
+    padding: 2%;
+}
+
 @media (max-width: 768px) {
     .home-wrapper {
         margin-bottom: 100px;
